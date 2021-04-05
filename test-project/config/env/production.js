@@ -60,15 +60,15 @@ module.exports = {
       //--------------------------------------------------------------------------
 
       /****************************************************************************
-      *                                                                           *
+      *                                                                           *
       * More adapter-specific options                                             *
-      *                                                                           *
+      *                                                                           *
       * > For example, for some hosted PostgreSQL providers (like Heroku), the    *
       * > extra `ssl: true` option is mandatory and must be provided.             *
-      *                                                                           *
-      * More info:                                                                *
-      * https://sailsjs.com/config/datastores                                     *
-      *                                                                           *
+      *                                                                           *
+      * More info:                                                                *
+      * https://sailsjs.com/config/datastores                                     *
+      *                                                                           *
       ****************************************************************************/
       // ssl: true,
 
@@ -374,7 +374,7 @@ module.exports = {
   *                                                                         *
   ***************************************************************************/
   custom: {
-    baseUrl: 'https://example.com',
+    baseUrl: 'https://hmis06.azurewebsites.net/',
     internalEmailAddress: 'support@example.com',
 
     // sendgridSecret: 'SG.fake.3e0Bn0qSQVnwb1E4qNPz9JZP5vLZYqjh7sn8S93oSHU',
@@ -395,3 +395,4 @@ module.exports = {
 
 
 };
+
